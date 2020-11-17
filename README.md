@@ -1,5 +1,5 @@
 # Challenges in Reinforcement Learning and Research Trending
-A curated list of [9 Challenges in Reinforcement Learning](https://arxiv.org/pdf/1904.12901.pdf) and theirs Research Trending (collected from 2018~present)
+A curated list of 9 Challenges in Reinforcement Learning and theirs Research Trending
 
 I'm looking for more contributors!
 
@@ -98,10 +98,7 @@ The researches for this challenge aim to improving sample efficiency.
 - Meta reinforcement learning: Learning how to learn
     * [MAML](https://arxiv.org/abs/1703.03400)
     * [SNAIL](https://arxiv.org/abs/1707.03141)
-- Learning from demonstration:
-The agent initializes from expert demonstration rather than learning from scratch
-    * 
-    *
+- Learning from demonstration: The agent initializes from expert demonstration rather than learning from scratch
 - Model-based Reinforcement Learning: agent is planned based on 
 a transition model of environment. It means the agent can learn from both real system 
 and transition model.
@@ -139,7 +136,7 @@ to avoid damages during exploration
 <a name="safety-trending"></a>
 #### Researches (applicable)
 - [CPO](https://arxiv.org/abs/1705.10528) Constrained Policy Optimization
-- [DDPG+Safety Layer](https://arxiv.org/abs/1801.08757) Safe Exploration in Continuous Action Spaces
+- [Safety Layer](https://arxiv.org/abs/1801.08757) Safe Exploration in Continuous Action Spaces
 
 <a name="partial"></a>
 ## Partial observability
@@ -155,7 +152,7 @@ to avoid damages during exploration
 <a name="partial-trending"></a>
 #### Researches (Hard problem and still challenged)
 - Stack of history observations. [DQN](https://arxiv.org/abs/1312.5602) is one example
-- Using [RNN](https://arxiv.org/abs/1507.06527) to memory the past
+- Using [RNN](https://arxiv.org/abs/1507.06527) to memory the past (Deep Recurrent Q-Learning for Partially Observable MDPs)
 
 <a name="partial"></a>
 ## Reward functions
@@ -168,9 +165,9 @@ to avoid damages during exploration
 (sub-objective) is difficult
 
 <a name="reward-trending"></a>
-#### Researches
-- Inverse Reinforcement Learning: don't design reward function but learn a reward model
-    + [GAIL](https://arxiv.org/abs/1606.03476)
+#### Researches (many in the last two year)
+- Imitation and Inverse Reinforcement Learning: don't design reward function but learn a reward model
+    + [GAIL](https://arxiv.org/abs/1606.03476) Generative Adversarial Imitation Learning
 
 <a name="partial"></a>
 ## Explainability
@@ -178,10 +175,10 @@ to avoid damages during exploration
 <a name="explain-intuition"></a>
 #### Intuition
 
-- Similar to problem of AI model, an RL agent also need to interpret for its decisions
+- Similar to problem in AI model, an RL agent also need to interpret for its decisions.
 
 <a name="explain-trending"></a>
-#### Researches
+#### Researches (still challenge)
 - `not investigated yet`
 
 <a name="realtime"></a>
@@ -192,7 +189,7 @@ to avoid damages during exploration
 
 - For some domains such as robotics, control systems, 
 real-time inference is very importance. The time from 
-collected the data to making decision should less than a limited runtime.
+collected the data to making decision should be less than a limited runtime.
 
 <a name="realtime-trending"></a>
 #### Researches (still challenge)
